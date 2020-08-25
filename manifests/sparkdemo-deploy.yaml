@@ -19,7 +19,7 @@ spec:
         app: spark-deploy
     spec:
       containers:
-        - image: alexandersarson/sparkjava:v2
+        - image: alexandersarson/sparkjava:v3
           name: spark
           ports:
             - containerPort: 4567
